@@ -223,8 +223,7 @@ color: var(--primary-text-color-theme-light);
     color: var(--primary-text-color-theme-dark);
 }
 
-.contact-footer .contact-email,
-.contact-footer .contact-phone {
+.contact-footer a {
     color: var(--third-text-color-theme-dark);
 }
 
