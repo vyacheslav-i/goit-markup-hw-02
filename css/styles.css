@@ -14,6 +14,7 @@
     --primary-text-color-theme-dark: #FFFFFF;
     --accent-color:#2196F3;
     --logo-color:#000000;
+    --order-button-background-color: #188CE8;
 }
 
 body {
@@ -33,6 +34,19 @@ body {
 
 .text {
     color: var(--secondary-text-color-theme-light);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 /* HEADER */
@@ -129,6 +143,11 @@ body {
     background-color: var(--accent-color);
 }
 
+.button-order:hover,
+.button-order:focus {
+    background-color: var(--order-button-background-color);
+}
+
 /* Section */
 
 .section-title {
@@ -194,6 +213,8 @@ color: var(--primary-text-color-theme-light);
 }
 
 .adress-list {
+    font-family: var(--primary-font);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
 }
