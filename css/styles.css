@@ -180,11 +180,6 @@ color: var(--primary-text-color-theme-light);
 }
 
 .team-card {
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
-
     background-color: var(--primary-background-color);
 }
 
